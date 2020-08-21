@@ -1,3 +1,5 @@
+require_relative '../src/item'
+
 RSpec.describe Item do
   describe "#to_s" do
     it "should return the item name, sell-in and quality" do
